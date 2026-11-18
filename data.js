@@ -9,7 +9,7 @@ export const SOURCES = [
   {id:'taishan-price',mountain:'泰山',type:'tickets',title:'泰山票务信息',issuer:'泰山风景名胜区管理委员会',published:'2025年4月7日',url:'https://tsgw.taian.gov.cn/art/2025/4/7/art_77180_5653044.html',summary:'该日公开普通门票115元，全日制本科及以下学生57元；索道、交通车单列。当前价格与优惠需在预约渠道核实。'},
   {id:'huangshan-book',mountain:'黄山',type:'tickets',title:'黄山门票预约与入园说明',issuer:'黄山旅游官方平台',published:'页面未标注发布日期',url:'https://www.huangshan.com.cn/detail/ticket?id=7019&m_id=730&page=1',summary:'查看官方门票详情，按进山方向、日期和时段预约。门票、索道与景区交通分别选择；二次入园按平台当期说明办理。'},
   {id:'siguniang-book',mountain:'四姑娘山',type:'tickets',title:'四姑娘山订票服务',issuer:'四姑娘山风景名胜区管理局',published:'页面未标注发布日期',url:'https://www.sgns.cn/info/contact/6378-2025-09-28-09-23-01',summary:'官方页面提供微信小程序二维码。进入后选择景区门票，再选四姑娘山及对应沟域。景区游览与登山、穿越分别查询。'},
-  {id:'siguniang-notice',mountain:'四姑娘山',type:'notices',title:'保护区暂停四项户外活动公告',issuer:'四姑娘山管理局户外活动管理中心、小金县文广体旅局',published:'2026年11月16日',url:'https://www.sgns.cn/info/notice/6891-2026-11-16-03-40-33',summary:'公告规定自2026年12月1日起，保护区内暂停登山、露营、攀岩、徒步穿越，列明2027年3月1日恢复。普通景区游览另查对应沟域公告。',effective:'2026年12月1日起',restore:'公告列明2027年3月1日'},
+  {id:'siguniang-notice',mountain:'四姑娘山',type:'notices',title:'保护区暂停四项户外活动公告',issuer:'四姑娘山管理局户外活动管理中心、小金县文广体旅局',published:'2026年11月16日',url:'https://www.sgns.cn/info/notice/6891-2026-11-16-03-40-33',summary:'公告规定自2026年12月1日起，保护区内暂停登山、露营、攀岩、徒步穿越，列明2027年3月1日恢复。普通景区游览另查对应沟域公告。',noticeLead:'保护区暂停登山、露营、攀岩和徒步穿越。普通景区游览另查。',effective:'2026年12月1日起',restore:'公告列明2027年3月1日'},
   {id:'siguniang-notices',mountain:'四姑娘山',type:'notices',title:'四姑娘山景区公告目录',issuer:'四姑娘山风景名胜区管理局',published:'持续更新的官方目录',url:'https://www.sgns.cn/info/notice',summary:'查看各沟域、道路和户外活动的最新通知；注意公告适用线路与生效日期。'},
   {id:'siguniang-hike',mountain:'四姑娘山',type:'guide',title:'四姑娘山户外徒步资料',issuer:'四姑娘山风景名胜区管理局',published:'页面未标注发布日期',url:'https://www.sgns.cn/outdoors/foot',summary:'官方介绍双桥沟、长坪沟、海子沟与长穿毕等活动。景区内游览、长线徒步穿越分别确认开放与组织要求。'},
   {id:'siguniang-climb',mountain:'四姑娘山',type:'professional',title:'四姑娘山户外登山介绍',issuer:'四姑娘山风景名胜区管理局',published:'页面未标注发布日期',url:'https://www.sgns.cn/outdoors/mountaineering',summary:'了解大姑娘山、二姑娘山、三姑娘山与幺妹峰等攀登活动。专业攀登先确认当期开放、组织与办理要求。'},
@@ -20,10 +20,10 @@ export const SOURCES = [
   {id:'walking-news',mountain:'全国',type:'news',title:'全国持杖行走联动日六地开展',issuer:'国家体育总局登山运动管理中心',published:'2026年11月9日',event:'2026年11月7日至8日',url:'https://www.sport.gov.cn/dszx/n5411/c30155774/content.html',summary:'全国持杖行走联动日在沈阳主会场与其他五处分会场陆续开展，面向不同年龄与运动需求设置路线。',kind:'徒步动态'},
 ];
 export const SERVICES = [
-  {id:'guide',title:'山岳资料',desc:'景区导览、步道与活动类型',icon:'mountains',color:'green'},
-  {id:'tickets',title:'门票预约',desc:'找到官方入口，分清票种',icon:'ticket',color:'blue'},
-  {id:'notices',title:'开放公告',desc:'核对线路、日期与适用范围',icon:'bell',color:'gold'},
-  {id:'certificates',title:'登顶证书',desc:'查询入口与申领指引',icon:'certificate',color:'purple'},
-  {id:'news',title:'登山新闻',desc:'赛事、户外与行业新消息',icon:'newspaper',color:'blue'},
-  {id:'professional',title:'专业攀登',desc:'对接俱乐部，准备个人材料',icon:'compass',color:'green'},
+  {id:'guide',title:'山岳资料',desc:'导览与步道',icon:'mountains',color:'green'},
+  {id:'tickets',title:'门票预约',desc:'官方预约入口',icon:'ticket',color:'blue'},
+  {id:'notices',title:'开放公告',desc:'线路与开放时间',icon:'bell',color:'gold'},
+  {id:'certificates',title:'登顶证书',desc:'查询与申领',icon:'certificate',color:'purple'},
+  {id:'news',title:'登山新闻',desc:'赛事与行业动态',icon:'newspaper',color:'blue'},
+  {id:'professional',title:'专业攀登',desc:'俱乐部与材料准备',icon:'compass',color:'green'},
 ];

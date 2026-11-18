@@ -4,45 +4,43 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>山行 · 登山信息助手</title>
   <meta name="description" content="查询山岳资料、门票预约、开放公告、登顶证书和登山新闻，连接腾讯ADP智能问答。">
-  <meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#185447">
+  <meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#263740">
   <meta property="og:title" content="山行 · 登山信息助手"><meta property="og:description" content="查清信息，再出发。"><meta property="og:type" content="website">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css?v=c20261118-3">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css?v=c20261118-6">
 </head>
 <body>
 <a href="#main" class="skip">跳到主要内容</a>
 <header class="topbar">
-  <a class="brand" href="./" aria-label="山行首页"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 30 16 9l8 14 4-7 9 14M11 20l5 4 5-6"/></svg><span class="heading-5">山行</span><span class="caption-2 brand-note">登山信息助手</span></a>
+  <a class="brand" href="./" aria-label="山行首页"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 30 16 9l8 14 4-7 9 14M11 20l5 4 5-6"/></svg><span class="heading-5">山行</span><span class="caption-2 brand-note">山岳信息助手</span></a>
   <nav aria-label="主导航"><a class="title-4 current" href="#main" aria-current="page">个人服务</a><a class="title-4" id="business-link" target="_blank" rel="noopener noreferrer">俱乐部工作台 <span aria-hidden="true">↗</span></a></nav>
   <button class="button-sm quiet" data-open-chat>打开问答 <span aria-hidden="true">↗</span></button>
 </header>
 <div class="layout">
 <main id="main" class="main-content">
   <section class="welcome" aria-labelledby="welcome-title">
-    <div class="welcome-copy"><p class="caption-1">从日常徒步，到下一座山</p><h1 id="welcome-title" class="heading-3">这次，想去哪座山？</h1><p class="body-3">查资料、找预约入口、看开放公告，<br class="desktop-break">出发前把信息问清楚。</p></div>
-    <svg class="landscape" viewBox="0 0 360 200" aria-hidden="true"><g class="contour"><path d="M3 183C62 102 106 119 152 53s98-44 129 8 49 72 81 60"/><path d="M-3 172C51 98 99 102 145 44s106-46 145 13 48 62 80 53"/><path d="M-3 162C47 85 88 94 138 34s119-40 161 20 49 51 77 44"/><path d="M-3 151C41 72 86 87 133 24s127-34 175 25 51 42 76 36"/><path d="M-3 140C33 60 75 76 127 14s140-30 189 29 55 36 80 32"/></g><path class="mountain" d="m49 163 68-95 44 65 46-92 100 122"/><path class="snow" d="m93 103 25 13 14-27m53-5 21 20 23-19"/><path class="trail" d="M123 190q4-28 42-40t12-43"/><circle cx="207" cy="41" r="5"/><path class="flag" d="M207 41V18l25 8-25 8"/></svg>
+    <div class="welcome-copy"><h1 id="welcome-title" class="heading-3">向山而行</h1><p class="body-3">查山岳、门票与开放公告。</p></div>
   </section>
-  <section class="services-section" aria-labelledby="services-title"><div class="section-title"><h2 id="services-title" class="title-2">你想查什么</h2><span class="caption-2">选择服务，查看对应资料</span></div><div class="services" id="services"></div></section>
+  <section class="services-section" aria-labelledby="services-title"><div class="section-title"><h2 id="services-title" class="title-2">你想查什么</h2></div><div class="services" id="services"></div></section>
   <section class="workspace" aria-labelledby="workspace-title">
-    <div class="workspace-head"><div><p id="workspace-kicker" class="caption-1">官方资料与办事入口</p><h2 id="workspace-title" class="heading-5">山岳资料</h2></div><span class="caption-2" id="verified-date"></span></div>
+    <div class="workspace-head"><div><p id="workspace-kicker" class="caption-1" hidden></p><h2 id="workspace-title" class="heading-5">山岳资料</h2></div><span class="caption-2" id="verified-date"></span></div>
     <form id="lookup-form" class="lookup-form"><div class="field"><label for="mountain" class="title-4">山岳或景区</label><input id="mountain" name="mountain" type="search" autocomplete="off" placeholder="输入山名，例如泰山" maxlength="60" aria-describedby="lookup-help"></div><button class="button-md primary" type="submit">查找资料</button></form>
-    <p class="caption-2" id="lookup-help">已有入口：泰山、黄山、四姑娘山。其他山岳可继续问助手。</p>
+    <p class="caption-2" id="lookup-help">已收录：泰山、黄山、四姑娘山。</p>
     <div class="mountain-pills" aria-label="常用山岳"><button class="button-sm pill" data-mountain="泰山">泰山</button><button class="button-sm pill" data-mountain="黄山">黄山</button><button class="button-sm pill" data-mountain="四姑娘山">四姑娘山</button><button class="button-sm pill" data-mountain="" id="all-mountains">全部资料</button></div>
     <div id="lookup-status" class="caption-1" role="status" aria-live="polite"></div><div id="results"></div>
-    <div class="ask-followup"><span class="body-6">想查具体日期、票价或路线？</span><button class="button-sm" id="ask-context">复制问题并打开问答 <span aria-hidden="true">↗</span></button></div>
+    <div class="ask-followup"><span class="body-6">需要查具体日期或票价？</span><button class="button-sm" id="ask-context">复制问题并打开问答 <span aria-hidden="true">↗</span></button></div>
   </section>
-  <section class="news-section" aria-labelledby="news-title"><div class="section-title"><h2 id="news-title" class="title-2">最近关注</h2><button class="button-sm quiet" data-service="news">查看消息</button></div><div id="news-list" class="news-list"></div><p class="caption-2">收录于2026年11月18日。进入问答可查询之后的新消息。</p></section>
-  <section class="tagline"><h2 class="heading-5">查清信息，<br>再出发。</h2><p class="body-6">每份资料都保留原文入口，<br>每个问题都可以继续追问。</p><svg viewBox="0 0 180 80" aria-hidden="true"><path d="m5 70 39-47 25 30 36-47 68 64M31 38l13 11 10-14M89 26l16 11 12-15"/></svg></section>
-  <section class="faq-section" aria-labelledby="faq-title"><h2 id="faq-title" class="title-2">常见问题</h2><div id="faq-list"></div></section>
+  <section class="news-section" aria-labelledby="news-title"><div class="section-title"><h2 id="news-title" class="title-2">最近关注</h2><button class="button-sm quiet" data-service="news">查看消息</button></div><div id="news-list" class="news-list"></div><p class="caption-2">资料核验于2026年11月18日。</p></section>
+  <section class="faq-section" aria-labelledby="faq-title" hidden><h2 id="faq-title" class="title-2">常见问题</h2><div id="faq-list"></div></section>
   <footer class="footer"><p class="caption-2">山行 · 电子政务课程项目</p><div><button class="caption-1 quiet" id="sources-open">来源目录</button><button class="caption-1 quiet" data-legal="privacy">隐私说明</button><button class="caption-1 quiet" data-legal="terms">使用说明</button></div></footer>
 </main>
 <aside class="chat-panel" id="chat-panel" aria-labelledby="chat-title">
-  <div class="chat-heading"><div class="assistant-mark" aria-hidden="true">山</div><div><h2 id="chat-title" class="title-2">问问山行</h2><p class="caption-2">资料、预约、公告，都可以问</p></div><button class="icon-button mobile-close" id="close-chat" aria-label="返回资料首页">×</button></div>
+  <div class="chat-heading"><div class="assistant-mark" aria-hidden="true">山</div><div><h2 id="chat-title" class="title-2">问问山行</h2></div><button class="icon-button mobile-close" id="close-chat" aria-label="返回资料首页">×</button></div>
   <div class="question-guide" id="question-guide" hidden><p class="caption-1">本次问题</p><p class="body-6" id="prepared-question"></p><div><button class="button-sm" id="copy-question">复制问题</button><span class="caption-2" id="copy-status" role="status"></span></div></div>
-  <div class="launch-pad"><h3 class="heading-5">从一个问题开始</h3><p class="body-3">想去哪座山、查什么信息，<br>直接告诉山行。</p><a id="launch-chat" class="button-md primary" target="_blank" rel="noopener noreferrer">进入智能问答 ↗</a><p class="caption-2">在新窗口打开腾讯ADP问答页</p><div class="quick-questions"><p class="title-4">也可以从这些问题开始</p><button class="body-6" data-direct-question="泰山在哪里预约门票？只给官方入口和操作办法。">泰山在哪里预约门票？ <span aria-hidden="true">↗</span></button><button class="body-6" data-direct-question="帮我查四姑娘山最新的开放公告，区分普通景区游览、徒步穿越和大峰攀登。">四姑娘山最近开放哪些活动？ <span aria-hidden="true">↗</span></button><button class="body-6" data-direct-question="我想查询登顶证书，应该先找哪个颁发机构？">登顶证书去哪里查询？ <span aria-hidden="true">↗</span></button><p class="caption-5">点击问题会复制文本并打开问答，粘贴后发送即可。</p></div></div>
-  <div class="chat-footer"><span class="caption-2">腾讯ADP提供智能问答</span><a class="caption-1" id="standalone-chat" target="_blank" rel="noopener noreferrer">独立窗口 ↗</a></div>
+  <div class="launch-pad"><h3 class="heading-5">有问题，问山行</h3><p class="body-3">查山岳、票务与公告。</p><a id="launch-chat" class="button-md primary" target="_blank" rel="noopener noreferrer">进入智能问答 ↗</a><p class="caption-2">将在新窗口打开</p><div class="quick-questions"><p class="title-4">试着问</p><button class="body-6" data-direct-question="泰山在哪里预约门票？只给官方入口和操作办法。">泰山在哪里预约门票？ <span aria-hidden="true">↗</span></button><button class="body-6" data-direct-question="帮我查四姑娘山最新的开放公告，区分普通景区游览、徒步穿越和大峰攀登。">四姑娘山最近开放哪些活动？ <span aria-hidden="true">↗</span></button><button class="body-6" data-direct-question="我想查询登顶证书，应该先找哪个颁发机构？">登顶证书去哪里查询？ <span aria-hidden="true">↗</span></button><p class="caption-5">选好问题，粘贴后发送。</p></div></div>
+  <div class="chat-footer" hidden><a id="standalone-chat" target="_blank" rel="noopener noreferrer">独立窗口</a></div>
 </aside>
 </div>
 <nav class="mobile-bottom" aria-label="手机导航"><button class="button-sm active" id="mobile-home">资料首页</button><button class="button-sm" data-open-chat>智能问答</button></nav>
 <dialog id="info-dialog"><div class="dialog-head"><h2 class="heading-5" id="dialog-title"></h2><button class="icon-button" id="dialog-close" aria-label="关闭">×</button></div><div id="dialog-body"></div></dialog>
-<script type="module" src="./app.js?v=c20261118-3"></script>
+<script type="module" src="./app.js?v=c20261118-6"></script>
 </body></html>

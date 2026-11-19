@@ -1,0 +1,620 @@
+{
+  "hengshan-40af953867": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "hengshan-ba80a7111b": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "公告自11月18日起启用网络身份认证核验，区分普通门票、悬空寺登临票及未成年人办理方式。",
+    "title": "恒山线上购票身份核验公告",
+    "type": "tickets",
+    "published": "2026-11-17",
+    "types": [
+      "tickets"
+    ],
+    "reviewed_content_sha256": "631032c17db3250f73b5b0af05d38d3b795240ea00cdde4b82ff5634af59a41d"
+  },
+  "hengshan-54dec60876": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "公告列明恒山庙群区于2026年11月18日9时恢复开放，适用范围为庙群区。",
+    "title": "恒山庙群区11月18日恢复开放",
+    "type": "notices",
+    "published": "2026-11-18",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "99c7149f36f5e10bcef3b5056f11e68c986f94f03edbc1370e2d9c1f4e3c9cf4"
+  },
+  "hengshan-68ca889226": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "11月17日因降雪临时关闭恒山庙群区，悬空寺仍可游览；同区域11月18日已有恢复公告。",
+    "title": "恒山庙群区11月17日临时关闭",
+    "type": "notices",
+    "published": "2026-11-17",
+    "types": [
+      "notices"
+    ],
+    "scope": "2026年11月17日恒山庙群区临时关闭；11月18日恢复公告已替代该状态",
+    "reviewed_content_sha256": "75ee956dc79ebf5760fdd8a571c0483a751fc7508156a1ffa067633da9611094"
+  },
+  "hengshan-6e20531eaf": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "微信搜索“北岳云游”或“北岳云游票务”，可预约门票、摆渡车票，并查看路线导航、语音讲解。",
+    "title": "恒山官方购票与导览小程序",
+    "type": "tickets",
+    "published": "2026-11-12",
+    "types": [
+      "tickets",
+      "guide"
+    ],
+    "reviewed_content_sha256": "19bf962916d1391ac4ad070e010e8852cc9a781e669b69cf195cef3b227fde0b"
+  },
+  "hengshan-f6ddc3c44d": {
+    "approved": false,
+    "reason": "已有更近的同区域开放公告，仅保留11月17日关闭和18日恢复的相邻记录"
+  },
+  "hengshan-2d15ce702f": {
+    "approved": false,
+    "reason": "已有更近的同区域开放公告，仅保留11月17日关闭和18日恢复的相邻记录"
+  },
+  "hengshan-fda855ff47": {
+    "approved": false,
+    "reason": "已有更近的同区域开放公告，仅保留11月17日关闭和18日恢复的相邻记录"
+  },
+  "hengshan-0e1f98cc3a": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "介绍恒山所在位置、景区构成、古建及自然景观。恒山庙群与悬空寺分别查阅票务和开放安排。",
+    "title": "北岳恒山景区概览",
+    "type": "guide",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "9e21dabd85818660e90a3d99ff9d09445095c5bd03e1506dca0ed3126d69a972"
+  },
+  "hengshan-be61ce3089": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "官网列出恒山庙群、悬空寺门票与登临费，提供优惠条件、预约及开票说明。",
+    "title": "恒山与悬空寺门票说明",
+    "type": "tickets",
+    "types": [
+      "tickets"
+    ],
+    "reviewed_content_sha256": "667edf1463c54e31ad1951f7ee85819a5d33bf6454fc0727e8eb8ae431148dd5"
+  },
+  "hengshan-d0e94fa252": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "列出恒山庙群、悬空寺及索道的春秋、夏季和冬季常规时间，节假日及临时调整另看公告。",
+    "title": "恒山各景区与索道开放时间",
+    "type": "notices",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "2abcca21ccea343a29ec9d108ba736370f34f2492f4f7bf3149138e68ed5a479"
+  },
+  "lushan-6465849044": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "庐山市政府介绍核心景区位置、主峰、景观和交通，给出“一机游庐山”实名预约入口。",
+    "title": "庐山核心景区导览与预约",
+    "type": "guide",
+    "published": "2025-12-31",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "c73e674441196cb61a8636f2d54fc3329641caed302df46bbd71bce10f7a2578"
+  },
+  "lushan-b13238db6e": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "自2026年8月27日8时解除当年暑期专项交通大换乘，恢复常态化交通管理。",
+    "title": "庐山解除2026年暑期交通大换乘",
+    "type": "notices",
+    "published": "2026-08-26",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "996a01fe4a56a2b3cd3b52b5f4da919957cb6916025cf90ff2208e1b04e4ad1c"
+  },
+  "lushan-32bd026a88": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "介绍庐山南麓观音桥的位置、桥梁遗存及周边景观。",
+    "title": "庐山观音桥景区介绍",
+    "type": "guide",
+    "published": "2026-03-23",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "85f5d067dedc21e79714d2ea0a305eb4f61b6eb59755f4079b2f58328f3d10fa"
+  },
+  "lushan-4fab95f7a4": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "三叠泉位于庐山东南，瀑布分三级跌下。查看景区介绍与主要景观。",
+    "title": "庐山三叠泉景区介绍",
+    "type": "guide",
+    "published": "2025-12-31",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "758e6d7fc80bfe48b3976eaff8430d6b78025025b6d49dcae1ee92d97dea5470"
+  },
+  "lushan-e1414613a4": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "秀峰位于庐山市白鹿镇，介绍群峰、峡谷、瀑布与历史文化景观。",
+    "title": "庐山秀峰景区介绍",
+    "type": "guide",
+    "published": "2025-12-31",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "54bd8efd0402cc4cd31ef65a846fa11c3a1e0f01671db966fc3108df8f6e76a0"
+  },
+  "jiuhua-aef3396057": {
+    "approved": false,
+    "reason": "旧时段临时管控公告，本轮优先补充当前服务与稳定导览"
+  },
+  "jiuhua-785cb0fa03": {
+    "approved": false,
+    "reason": "旧时段临时管控公告，本轮优先补充当前服务与稳定导览"
+  },
+  "jiuhua-d2b0a55af6": {
+    "approved": false,
+    "reason": "旧时段临时管控公告，本轮优先补充当前服务与稳定导览"
+  },
+  "jiuhua-18b85ac583": {
+    "approved": false,
+    "reason": "旧时段临时管控公告，本轮优先补充当前服务与稳定导览"
+  },
+  "jiuhua-427cdedb86": {
+    "approved": false,
+    "reason": "旧时段临时管控公告，本轮优先补充当前服务与稳定导览"
+  },
+  "qingcheng-1f3609630a": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通过“青城山都江堰”“悦游都江堰”公众号预约。页面分别说明两处景区使用范围、优惠及退票办法。",
+    "title": "青城前山与都江堰票务说明",
+    "type": "tickets",
+    "types": [
+      "tickets",
+      "guide"
+    ],
+    "reviewed_content_sha256": "a2186089d325220140bd987aef4fcdc0a255ee470520888c152bf0e2743ac25f",
+    "issuer": "都江堰市都江堰旅游商务有限责任公司"
+  },
+  "taishan-d00919c3e8": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "第40届泰山国际登山比赛暨全国全民健身登泰山徒步活动于2026年9月6日举行。",
+    "title": "第40届泰山国际登山比赛开赛",
+    "type": "news",
+    "published": "2026-09-07",
+    "types": [
+      "news"
+    ],
+    "event": "2026-09-06",
+    "kind": "赛事报道",
+    "reviewed_content_sha256": "99b839fdf0fe00b40c9e4400f40f15651dbd797e7353f43c5b186f0cdb3cd0dc"
+  },
+  "taishan-2fa88252cd": {
+    "approved": false,
+    "reason": "既有知识库已包含相同来源，避免重复导入"
+  },
+  "siguniang-79d33e5379": {
+    "approved": false,
+    "reason": "既有知识库已包含相同来源，避免重复导入"
+  },
+  "siguniang-0c7d95dac6": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "siguniang-f124ba8c61": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "siguniang-e4de2bbb6d": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通告适用于保护区内未开发、未开放区域，禁止擅自进入开展徒步、登山、露营等活动。",
+    "title": "四姑娘山未开放区域管理通告",
+    "type": "notices",
+    "published": "2026-05-22",
+    "types": [
+      "notices"
+    ],
+    "scope": "保护区未开发、未开放区域",
+    "reviewed_content_sha256": "2e74222dc3c4c9df27a40bc4cba9aa84cb70e919d4655d566876e68b576d57f8"
+  },
+  "siguniang-2caa8517a9": {
+    "approved": false,
+    "reason": "既有知识库已包含相同来源，避免重复导入"
+  },
+  "siguniang-2c2c3cdecb": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "完成对应线路扫码打卡后，可在活动小程序查看、下载电子证书；实体奖牌凭核销码到长坪沟游客中心领取。打卡权益与景区门票分别购买。",
+    "title": "长坪沟徒步打卡证书与奖牌",
+    "type": "certificates",
+    "types": [
+      "certificates",
+      "guide"
+    ],
+    "reviewed_content_sha256": "473b759dfece67d1e66f6bd790f4ec77409551a9b32b9afcfeea6e323974a946"
+  },
+  "siguniang-7d1d4a26d2": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "siguniang-5bce9b0304": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "大会于2026年10月30日开幕，活动安排至11月1日，设置大峰速攀、大峰登山及二峰登山组。",
+    "title": "第九届四姑娘山登山大会开幕",
+    "type": "news",
+    "types": [
+      "news"
+    ],
+    "event": "2026-10-30",
+    "kind": "赛事报道",
+    "reviewed_content_sha256": "ba7ee8421077a5a92243aca9ba6f6788877945876aa694a48c85b280b8663cd1"
+  },
+  "tianzhu-eb9c88eac1": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "原旅游商务网已停止线上售票，购票转至“天柱山旅游官方平台”，页面提供个人游客扫码入口。",
+    "title": "天柱山官方购票渠道迁移",
+    "type": "tickets",
+    "types": [
+      "tickets"
+    ],
+    "reviewed_content_sha256": "4b73cc1f27b72aa6708fa9c38610284bfee1ae661af5184f6713bf2012b56cab"
+  },
+  "tianzhu-0a3bbbb15c": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "tianzhu-d1901af630": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "tianzhu-c86bf328e7": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "景区禁止擅自进入未开发、未开放区域游览及开展探险、攀岩等活动，游览按已开放路线安排。",
+    "title": "天柱山未开放区域管理通告",
+    "type": "notices",
+    "published": "2026-11-05",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "db9de1c90a71e26ab034c07d2b619e2ff29c82f1a5e9eb571ce98d8e60502a05"
+  },
+  "tianzhu-795309ecfa": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "列出主景区、观光车和索道的平旺季、冬游季运营时间，以及实名预约与进山方向要求。",
+    "title": "天柱山运营与实名预约说明",
+    "type": "notices",
+    "published": "2026-08-21",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "2905a95cf9448e9625896d642de7cb8f94e376de34c5c2fb3736407d98d1da5b"
+  },
+  "tianzhu-a0289e4d86": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "按客流规模分三级采取分流、车辆和线路管控措施，具体响应由景区发布。",
+    "title": "天柱山客流分级限流措施",
+    "type": "notices",
+    "published": "2026-08-27",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "bb6ef96e32dc82e83d3157ff05a253a18402d1883d589fb2ec1ed6970c3e757c"
+  },
+  "tianzhu-e1db13c493": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "介绍潜山站接驳、茶庄游客中心和龙潭河游客中心，区分西关步行入口与索道方向。",
+    "title": "天柱山交通与登山入口",
+    "type": "guide",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "4176028b300d409ae387292209f4458a550c5ea321c734f8a7e8409ab3986362"
+  },
+  "tianzhu-7bb25e9de1": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "yandang-d413787191": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "yandang-5007750b1d": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "yandang-f422a627d6": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "自5月15日起，周一至周四为10:30、15:30；周五至周日为10:30、14:00、16:00。",
+    "title": "雁荡山灵岩飞渡表演时间",
+    "type": "notices",
+    "published": "2026-05-14",
+    "types": [
+      "notices"
+    ],
+    "reviewed_content_sha256": "23c89f5c39fdb1feaa2c9d7c91c427fb0f0a96f2778de29d87af10d250d5c29d",
+    "issuer": "温州市雁荡山风景旅游管理委员会"
+  },
+  "yandang-aff463bbcc": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "yandang-456e02b18b": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "yandang-9ee4101e2d": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "yandang-bec2c6440d": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "yandang-f3779a78d3": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "介绍雁荡山的位置、火山地貌及灵峰、灵岩、大龙湫等景区，供普通山岳游览查阅。",
+    "title": "雁荡山景区概览",
+    "type": "guide",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "a08c58bdf96de17abc8b8dfa869ab90f0c13f28cf7527cd08bddc0e17e51b877",
+    "issuer": "温州市雁荡山旅游发展集团有限公司"
+  },
+  "emei-64a39d9a2c": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "自2026年3月10日起，高山区观光车按时段实名预约；通过“峨眉山景区”公众号或官方小程序购票。",
+    "title": "峨眉山高山区观光车分时预约",
+    "type": "tickets",
+    "published": "2026-03-09",
+    "types": [
+      "tickets",
+      "guide"
+    ],
+    "reviewed_content_sha256": "8ec4af69cb3b55a791c7d38db68dbb43790269204d6c062f3dac2c5697412a27",
+    "issuer": "峨眉山风景名胜区管理委员会（乐山市政府公开）"
+  },
+  "emei-2b16a89ee9": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "持金顶索道下行票并到达金顶区域后，可在专用小程序或现场取号机预约2号索道下行时段。",
+    "title": "峨眉山金顶2号索道下行预约",
+    "type": "tickets",
+    "published": "2025-09-11",
+    "types": [
+      "tickets"
+    ],
+    "reviewed_content_sha256": "19c589bb4b2a266dc9a083f4feb5363b7edda5f8d6cd52aea94d037e63e1157c",
+    "issuer": "峨眉山风景名胜区管理委员会（乐山市政府公开）"
+  },
+  "national-d982b7fe84": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知计划于2026年12月6日至11日在新疆可可托海滑雪场举办赛事，附竞赛规程。",
+    "title": "2026年全国滑雪登山锦标赛规程",
+    "type": "news",
+    "published": "2026-11-13",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "9b9f7c85fd4cd82563de65fbf93e8d055edf5990f3c243910337b49f65816430"
+  },
+  "national-84aba99afe": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知计划于2026年11月26日至12月10日在上海举办训练营，列明参训条件和安排。",
+    "title": "2026年全国青少年攀岩训练营",
+    "type": "news",
+    "published": "2026-11-11",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "59a774048404c5283c8a2a48d67557590276600b3bd36bbaf9e1d7f17b47dbca"
+  },
+  "national-b26cc3d23d": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知计划于2026年12月25日至31日在吉林松花湖雪场举办全国滑雪登山交流赛暨大冬会测试赛。",
+    "title": "全国滑雪登山交流赛规程",
+    "type": "news",
+    "published": "2026-11-10",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "bd3c4f97a1541dbf2398335701668c14ed2e27cb760f552879f1c858c973af13"
+  },
+  "national-66025cf9fe": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "赛事计划于2026年12月22日至25日在吉林市举行，通知列明报名截止时间及竞赛规程。",
+    "title": "全国青少年滑雪登山锦标赛通知",
+    "type": "news",
+    "published": "2026-11-09",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "7850ff3fb491e7a72585e804da1da550c6e41be7dc960c48716c954b369a2fa7"
+  },
+  "national-99e4c9efc8": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "首期培训计划于2026年11月27日至30日在广州大学城体育中心举行，附报名要求。",
+    "title": "国家级攀岩定线员培训班通知",
+    "type": "news",
+    "published": "2026-11-04",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "e26d0d7c304a273b7556128113ace37c7b0d4bd62879ad7e3d64665135b54761"
+  },
+  "national-142b8e537a": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "公布2026年11月面向登山户外从业者与爱好者的培训计划和师生配比要求。",
+    "title": "中国登山协会11月培训计划",
+    "type": "news",
+    "published": "2026-11-03",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "ce9f333e7560c019f8a1544f152e85d9d94da559ad3d44c1b9a08ca61bafcaa1"
+  },
+  "national-173b946702": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知计划于2026年11月20日至22日在江西全南举行比赛，报名截止时间为11月6日12时。",
+    "title": "青少年U系列攀岩联赛全南站通知",
+    "type": "news",
+    "published": "2026-10-30",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "2b582542b9e7b299f0e32217123235077dccaf43ccc1a1bd0c9da5f501a1a355"
+  },
+  "national-5df0442439": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知列明2026年11月12日至15日重庆站比赛安排及攀石、难度、速度和速度接力项目。",
+    "title": "全国攀岩锦标赛报名通知",
+    "type": "news",
+    "published": "2026-10-29",
+    "types": [
+      "news"
+    ],
+    "kind": "赛事与培训通知",
+    "reviewed_content_sha256": "15a58c58f9bdb1322650eb09f22045252fd4a47ccdc6215a7fcdadf3380d0b84"
+  },
+  "fanjing-bd1d68ac3f": {
+    "approved": false,
+    "reason": "官网标题为售罄，正文为营业时间调整，标题正文不一致，待发布机构核实"
+  },
+  "fanjing-2001a0cd64": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "fanjing-063b26cc59": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "fanjing-48d53e3e57": {
+    "approved": false,
+    "reason": "限时公告已结束，不作当前出行资料导入"
+  },
+  "fanjing-fe3bd3a19b": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "fanjing-3006a0aa5c": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "介绍梵净山的地理位置、自然遗产、生物多样性与标志性景观。",
+    "title": "梵净山景区概况",
+    "type": "guide",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "860963fe61525748b6e90045ae277e5f71f3e17b3a39c8d1c6a8072393988b05",
+    "issuer": "铜仁市梵净山文化旅游产业发展集团有限公司"
+  },
+  "fanjing-0cecb032e6": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "查看红云金顶、老金顶、蘑菇石、承恩寺与索道等景点介绍。",
+    "title": "梵净山景点导览",
+    "type": "guide",
+    "types": [
+      "guide"
+    ],
+    "reviewed_content_sha256": "4ec147eee279f6c31a955bd14080aa6a81e5ee560dafbc1694d9411d4c7cfa03",
+    "issuer": "铜仁市梵净山文化旅游产业发展集团有限公司"
+  },
+  "fanjing-a21e79dbf4": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "列明“梵净山旅游区”公众号、“一码游贵州”等购票渠道，区分东、西山门及徒步与索道安排。",
+    "title": "梵净山实名预约与入园须知",
+    "type": "tickets",
+    "types": [
+      "tickets"
+    ],
+    "reviewed_content_sha256": "8b068ef33e01383af03cf6d42fe752f07fa3b3bc845e115b68a935bccc176bf6",
+    "issuer": "铜仁市梵净山文化旅游产业发展集团有限公司"
+  },
+  "fanjing-25f2b637bd": {
+    "approved": false,
+    "reason": "与本批出行查询无直接关系"
+  },
+  "fanjing-b081cf5593": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "通知自2026年9月1日起，东线入园为7:00至15:00，西线为7:00至13:00。",
+    "title": "梵净山营业时间调整",
+    "type": "notices",
+    "published": "2026-08-28",
+    "types": [
+      "notices"
+    ],
+    "scope": "2026年9月1日起常规时间；当期临时调整须查新公告",
+    "reviewed_content_sha256": "3f54a66aefb2c440be07575489a92863b876c3078e5b92e03035739cc90a98e2",
+    "issuer": "铜仁市梵净山文化旅游产业发展集团有限公司"
+  },
+  "songshan-dfc585cc44": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "政府答复区分景区常规运营、嵩阳书院夜游试点与夜间演艺；三皇寨等深山片区的夜游另有范围限制。",
+    "title": "嵩山运营与夜游试点说明",
+    "type": "guide",
+    "published": "2026-06-22",
+    "types": [
+      "guide"
+    ],
+    "scope": "建议答复中的现状与规划分别读取，不作全域夜间开放公告",
+    "reviewed_content_sha256": "90d666b5b6c3667f676d0973fba30c74d4a517678806d019296824a01aa1767b"
+  },
+  "xiangshan-cae1af5ebf": {
+    "approved": true,
+    "reviewed_on": "2026-11-18",
+    "summary": "北京市园林绿化局介绍香山公园，列出旺淡季开放时间、普通门票及半价票标准。",
+    "title": "北京香山公园游览与常规票价",
+    "type": "guide",
+    "published": "2023-12-25",
+    "types": [
+      "guide",
+      "tickets"
+    ],
+    "reviewed_content_sha256": "1bd2db3bb4cfc73a9f8d6b8259d2614425c7154b319fbcca3a9cf999657ce256"
+  }
+}

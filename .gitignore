@@ -1,4 +1,12 @@
+knowledge/.venv/
+knowledge/raw/
+knowledge/docs/
+knowledge/evidence/
+knowledge/outputs/collected.json
+knowledge/outputs/approved.json
+knowledge/outputs/*.zip
+knowledge/outputs/*.xlsx
+knowledge/outputs/*.inspect.ndjson
+knowledge/node_modules
+__pycache__/
 .DS_Store
-.env
-.env.*
-*.log

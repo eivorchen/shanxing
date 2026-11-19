@@ -44,4 +44,6 @@ git commit -m "Update mountain information"
 git push origin main
 ```
 
-修改来源条目和公开体验地址时编辑 `data.js`。资料摘要保留原文及日期，新的实时信息由问答继续检索。
+资料目录由 `knowledge/scripts/build_catalog.mjs` 生成。新增来源、核验摘要和适用范围统一记录在 `knowledge/review.json`，采集及导入方法见 [知识库维护说明](knowledge/README.md)。
+
+当前首页有54条资料，涉及12处山岳与景区；腾讯C端知识库有52份文档。页面支持山名及景点别名筛选，新闻按资料核验日筛选近30天，赛事预告保留计划日期。B端俱乐部工作台保留。

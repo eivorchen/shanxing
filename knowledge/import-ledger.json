@@ -1,0 +1,375 @@
+{
+  "app_id": "2122661644017745920",
+  "status": "imported",
+  "imported_on": "2026-11-18",
+  "method": "腾讯控制台：40条网址XLSX批量导入",
+  "before": 12,
+  "after": 52,
+  "web_update_setting": "daily",
+  "update_execution_observed": false,
+  "reference": "original_url",
+  "scope": "debug_and_release",
+  "evidence": "evidence/adp-import-completion.json",
+  "documents": [
+    {
+      "id": "hengshan-ba80a7111b",
+      "url": "https://www.byhs.net.cn/culture_detial/332.html",
+      "content_sha256": "631032c17db3250f73b5b0af05d38d3b795240ea00cdde4b82ff5634af59a41d",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-54dec60876",
+      "url": "https://www.byhs.net.cn/culture_detial/333.html",
+      "content_sha256": "99c7149f36f5e10bcef3b5056f11e68c986f94f03edbc1370e2d9c1f4e3c9cf4",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-68ca889226",
+      "url": "https://www.byhs.net.cn/culture_detial/331.html",
+      "content_sha256": "75ee956dc79ebf5760fdd8a571c0483a751fc7508156a1ffa067633da9611094",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-6e20531eaf",
+      "url": "https://www.byhs.net.cn/culture_detial/330.html",
+      "content_sha256": "19bf962916d1391ac4ad070e010e8852cc9a781e669b69cf195cef3b227fde0b",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-0e1f98cc3a",
+      "url": "https://www.byhs.net.cn/about.html",
+      "content_sha256": "9e21dabd85818660e90a3d99ff9d09445095c5bd03e1506dca0ed3126d69a972",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-be61ce3089",
+      "url": "https://www.byhs.net.cn/Travel_Guide/1.html",
+      "content_sha256": "667edf1463c54e31ad1951f7ee85819a5d33bf6454fc0727e8eb8ae431148dd5",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "hengshan-d0e94fa252",
+      "url": "https://www.byhs.net.cn/Travel_Guide/2.html",
+      "content_sha256": "2abcca21ccea343a29ec9d108ba736370f34f2492f4f7bf3149138e68ed5a479",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "hengshan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "lushan-6465849044",
+      "url": "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202512/t20251231_7134054.html",
+      "content_sha256": "c73e674441196cb61a8636f2d54fc3329641caed302df46bbd71bce10f7a2578",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "lushan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "lushan-b13238db6e",
+      "url": "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202608/t20260827_7298316.html",
+      "content_sha256": "996a01fe4a56a2b3cd3b52b5f4da919957cb6916025cf90ff2208e1b04e4ad1c",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "lushan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "lushan-32bd026a88",
+      "url": "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202512/t20251231_7134058.html",
+      "content_sha256": "85f5d067dedc21e79714d2ea0a305eb4f61b6eb59755f4079b2f58328f3d10fa",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "lushan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "lushan-4fab95f7a4",
+      "url": "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202512/t20251231_7134056.html",
+      "content_sha256": "758e6d7fc80bfe48b3976eaff8430d6b78025025b6d49dcae1ee92d97dea5470",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "lushan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "lushan-e1414613a4",
+      "url": "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202512/t20251231_7134055.html",
+      "content_sha256": "54bd8efd0402cc4cd31ef65a846fa11c3a1e0f01671db966fc3108df8f6e76a0",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "lushan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "qingcheng-1f3609630a",
+      "url": "https://www.djy517.com/online.html?channelCode=mpyd",
+      "content_sha256": "a2186089d325220140bd987aef4fcdc0a255ee470520888c152bf0e2743ac25f",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "qingcheng",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "taishan-d00919c3e8",
+      "url": "https://tsgw.taian.gov.cn/art/2026/9/7/art_48270_10325325.html",
+      "content_sha256": "99b839fdf0fe00b40c9e4400f40f15651dbd797e7353f43c5b186f0cdb3cd0dc",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "taishan",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "siguniang-e4de2bbb6d",
+      "url": "https://www.sgns.cn/info/notice/6520-2026-05-22-09-20-38",
+      "content_sha256": "2e74222dc3c4c9df27a40bc4cba9aa84cb70e919d4655d566876e68b576d57f8",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "siguniang",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "siguniang-2c2c3cdecb",
+      "url": "https://www.sgns.cn/info/news/6792-2026-10-21-02-31-27",
+      "content_sha256": "473b759dfece67d1e66f6bd790f4ec77409551a9b32b9afcfeea6e323974a946",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "siguniang",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "siguniang-5bce9b0304",
+      "url": "https://www.sgns.cn/info/news/6805-2026-10-30-07-58-30",
+      "content_sha256": "ba7ee8421077a5a92243aca9ba6f6788877945876aa694a48c85b280b8663cd1",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "siguniang",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "tianzhu-eb9c88eac1",
+      "url": "https://www.etzs.cn/",
+      "content_sha256": "4b73cc1f27b72aa6708fa9c38610284bfee1ae661af5184f6713bf2012b56cab",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "tianzhu",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "tianzhu-c86bf328e7",
+      "url": "https://www.tzs.com.cn/site-ah-tzs/info/5344",
+      "content_sha256": "db9de1c90a71e26ab034c07d2b619e2ff29c82f1a5e9eb571ce98d8e60502a05",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "tianzhu",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "tianzhu-795309ecfa",
+      "url": "https://www.tzs.com.cn/site-ah-tzs/info/5236",
+      "content_sha256": "2905a95cf9448e9625896d642de7cb8f94e376de34c5c2fb3736407d98d1da5b",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "tianzhu",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "tianzhu-a0289e4d86",
+      "url": "https://www.tzs.com.cn/site-ah-tzs/info/5243",
+      "content_sha256": "bb6ef96e32dc82e83d3157ff05a253a18402d1883d589fb2ec1ed6970c3e757c",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "tianzhu",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "tianzhu-e1db13c493",
+      "url": "https://www.tzs.com.cn/site-ah-tzs/info/550",
+      "content_sha256": "4176028b300d409ae387292209f4458a550c5ea321c734f8a7e8409ab3986362",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "tianzhu",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "yandang-f422a627d6",
+      "url": "https://yds.wenzhou.gov.cn/col/col1229214223/art/2026/art_af793283d9224373ab12c247a67dd6ca.html",
+      "content_sha256": "23c89f5c39fdb1feaa2c9d7c91c427fb0f0a96f2778de29d87af10d250d5c29d",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "yandang",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "yandang-f3779a78d3",
+      "url": "https://www.wzyds.com/about.aspx?t=5",
+      "content_sha256": "a08c58bdf96de17abc8b8dfa869ab90f0c13f28cf7527cd08bddc0e17e51b877",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "yandang",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "emei-64a39d9a2c",
+      "url": "https://www.leshan.gov.cn/lsswszf/zzzqgsgg/781992631300165.html",
+      "content_sha256": "8ec4af69cb3b55a791c7d38db68dbb43790269204d6c062f3dac2c5697412a27",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "emei",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "emei-2b16a89ee9",
+      "url": "https://www.leshan.gov.cn/lsswszf/zzzqgsgg/bc5ef1c2b2d24f36a92f68081.html",
+      "content_sha256": "19c589bb4b2a266dc9a083f4feb5363b7edda5f8d6cd52aea94d037e63e1157c",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "emei",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "national-d982b7fe84",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30167067/content.html",
+      "content_sha256": "9b9f7c85fd4cd82563de65fbf93e8d055edf5990f3c243910337b49f65816430",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-84aba99afe",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30161363/content.html",
+      "content_sha256": "59a774048404c5283c8a2a48d67557590276600b3bd36bbaf9e1d7f17b47dbca",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-b26cc3d23d",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30160760/content.html",
+      "content_sha256": "bd3c4f97a1541dbf2398335701668c14ed2e27cb760f552879f1c858c973af13",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-66025cf9fe",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30156159/content.html",
+      "content_sha256": "7850ff3fb491e7a72585e804da1da550c6e41be7dc960c48716c954b369a2fa7",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-99e4c9efc8",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30150424/content.html",
+      "content_sha256": "e26d0d7c304a273b7556128113ace37c7b0d4bd62879ad7e3d64665135b54761",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-142b8e537a",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30148723/content.html",
+      "content_sha256": "ce9f333e7560c019f8a1544f152e85d9d94da559ad3d44c1b9a08ca61bafcaa1",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-173b946702",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30140567/content.html",
+      "content_sha256": "2b582542b9e7b299f0e32217123235077dccaf43ccc1a1bd0c9da5f501a1a355",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:06:14+08:00"
+    },
+    {
+      "id": "national-5df0442439",
+      "url": "https://www.sport.gov.cn/dszx/n5414/c30138711/content.html",
+      "content_sha256": "15a58c58f9bdb1322650eb09f22045252fd4a47ccdc6215a7fcdadf3380d0b84",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "national",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "fanjing-3006a0aa5c",
+      "url": "https://fanjingshan.gz.cn/?page_id=743",
+      "content_sha256": "860963fe61525748b6e90045ae277e5f71f3e17b3a39c8d1c6a8072393988b05",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "fanjing",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "fanjing-0cecb032e6",
+      "url": "https://fanjingshan.gz.cn/?page_id=753",
+      "content_sha256": "4ec147eee279f6c31a955bd14080aa6a81e5ee560dafbc1694d9411d4c7cfa03",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "fanjing",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "fanjing-a21e79dbf4",
+      "url": "https://fanjingshan.gz.cn/?page_id=1188",
+      "content_sha256": "8b068ef33e01383af03cf6d42fe752f07fa3b3bc845e115b68a935bccc176bf6",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "fanjing",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "fanjing-b081cf5593",
+      "url": "https://fanjingshan.gz.cn/?p=11926",
+      "content_sha256": "3f54a66aefb2c440be07575489a92863b876c3078e5b92e03035739cc90a98e2",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "fanjing",
+      "fetched_at": "2026-11-18T21:09:40+08:00"
+    },
+    {
+      "id": "songshan-dfc585cc44",
+      "url": "https://public.zhengzhou.gov.cn/D1101X/10204019.jhtml",
+      "content_sha256": "90d666b5b6c3667f676d0973fba30c74d4a517678806d019296824a01aa1767b",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "songshan",
+      "fetched_at": "2026-11-18T21:12:04+08:00"
+    },
+    {
+      "id": "xiangshan-cae1af5ebf",
+      "url": "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508036.shtml",
+      "content_sha256": "1bd2db3bb4cfc73a9f8d6b8259d2614425c7154b319fbcca3a9cf999657ce256",
+      "status": "imported",
+      "http_status": 200,
+      "site_id": "xiangshan",
+      "fetched_at": "2026-11-18T21:12:04+08:00"
+    }
+  ]
+}

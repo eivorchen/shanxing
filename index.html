@@ -23,13 +23,13 @@
   <section class="services-section" aria-labelledby="services-title"><div class="section-title"><h2 id="services-title" class="title-2">你想查什么</h2></div><div class="services" id="services"></div></section>
   <section class="workspace" aria-labelledby="workspace-title">
     <div class="workspace-head"><div><p id="workspace-kicker" class="caption-1" hidden></p><h2 id="workspace-title" class="heading-5">山岳资料</h2></div><span class="caption-2" id="verified-date"></span></div>
-    <form id="lookup-form" class="lookup-form"><div class="field"><label for="mountain" class="title-4">山岳或景区</label><input id="mountain" name="mountain" type="search" autocomplete="off" placeholder="输入山名，例如泰山" maxlength="60" aria-describedby="lookup-help"></div><button class="button-md primary" type="submit">查找资料</button></form>
-    <p class="caption-2" id="lookup-help">已收录：泰山、黄山、四姑娘山。</p>
-    <div class="mountain-pills" aria-label="常用山岳"><button class="button-sm pill" data-mountain="泰山">泰山</button><button class="button-sm pill" data-mountain="黄山">黄山</button><button class="button-sm pill" data-mountain="四姑娘山">四姑娘山</button><button class="button-sm pill" data-mountain="" id="all-mountains">全部资料</button></div>
+    <form id="lookup-form" class="lookup-form"><div class="field"><label for="mountain" class="title-4">山岳或景区</label><input id="mountain" name="mountain" type="search" list="mountain-options" autocomplete="off" placeholder="输入或选择山名" maxlength="60" aria-describedby="lookup-help"><datalist id="mountain-options"></datalist></div><button class="button-md primary" type="submit">查找资料</button></form>
+    <p class="caption-2" id="lookup-help"></p>
+    <div class="mountain-pills" id="mountain-pills" aria-label="常用山岳"></div>
     <div id="lookup-status" class="caption-1" role="status" aria-live="polite"></div><div id="results"></div>
     <div class="ask-followup"><span class="body-6">需要查具体日期或票价？</span><button class="button-sm" id="ask-context">复制问题并打开问答 <span aria-hidden="true">↗</span></button></div>
   </section>
-  <section class="news-section" aria-labelledby="news-title"><div class="section-title"><h2 id="news-title" class="title-2">最近关注</h2><button class="button-sm quiet" data-service="news">查看消息</button></div><div id="news-list" class="news-list"></div><p class="caption-2">资料核验于2026年11月18日。</p></section>
+  <section class="news-section" aria-labelledby="news-title"><div class="section-title"><h2 id="news-title" class="title-2">最近关注</h2><button class="button-sm quiet" data-service="news">查看消息</button></div><div id="news-list" class="news-list"></div></section>
   <section class="faq-section" aria-labelledby="faq-title" hidden><h2 id="faq-title" class="title-2">常见问题</h2><div id="faq-list"></div></section>
   <footer class="footer"><p class="caption-2">山行 · 电子政务课程项目</p><div><button class="caption-1 quiet" id="sources-open">来源目录</button><button class="caption-1 quiet" data-legal="privacy">隐私说明</button><button class="caption-1 quiet" data-legal="terms">使用说明</button></div></footer>
 </main>
@@ -42,5 +42,5 @@
 </div>
 <nav class="mobile-bottom" aria-label="手机导航"><button class="button-sm active" id="mobile-home">资料首页</button><button class="button-sm" data-open-chat>智能问答</button></nav>
 <dialog id="info-dialog"><div class="dialog-head"><h2 class="heading-5" id="dialog-title"></h2><button class="icon-button" id="dialog-close" aria-label="关闭">×</button></div><div id="dialog-body"></div></dialog>
-<script type="module" src="./app.js?v=c20261118-6"></script>
+<script type="module" src="./app.js?v=knowledge-20261118"></script>
 </body></html>

@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const urls=JSON.parse(await fs.readFile(path.join(root,'outputs/import-urls.json'),'utf8'));
+if(!urls.length){console.log('没有待导入的新网址。');process.exit(0);}
+if(urls.length>500 || urls.some(u=>u.length>2048 || !/^https?:\/\//.test(u)))throw Error('Invalid URL batch');
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(root,'outputs/tencent-web-template.xlsx')));
+const sheet=wb.worksheets.getItemAt(0);
+const before=await wb.render({sheetName:sheet.name,range:'A1:A4',scale:1,format:'png'});
+await fs.writeFile(path.join(root,'evidence/template-before.png'),new Uint8Array(await before.arrayBuffer()));
+sheet.getRange('A2:A501').clear({applyTo:'contents'});
+sheet.getRange(`A2:A${urls.length+1}`).values=urls.map(u=>[u]);
+sheet.getRange(`A1:A${urls.length+1}`).format.columnWidth=110;
+sheet.getRange(`A2:A${urls.length+1}`).format.wrapText=true;
+sheet.getRange(`A2:A${urls.length+1}`).format.rowHeight=38;
+wb.recalculate();
+const check=await wb.inspect({kind:'table',range:`'${sheet.name}'!A1:A6`,include:'values,formulas',maxChars:2000,tableMaxCols:1,tableMaxRows:6});
+console.log(check.ndjson);
+if(JSON.stringify(sheet.getRange(`A2:A${urls.length+1}`).values)!==JSON.stringify(urls.map(u=>[u])))throw Error('URL mismatch');
+const preview=await wb.render({sheetName:sheet.name,range:'A1:A7',scale:1,format:'png'});
+await fs.writeFile(path.join(root,'evidence/web-import-sheet.png'),new Uint8Array(await preview.arrayBuffer()));
+await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(root,'outputs/official-web-import.xlsx'));
+console.log(JSON.stringify({urls:urls.length,output:'official-web-import.xlsx'}));

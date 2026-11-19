@@ -1,0 +1,240 @@
+{
+  "source_as_of": "2026-11-18",
+  "completed_on": "2026-11-19",
+  "app_id": "2122661644017745920",
+  "published_version": "v20261118214150",
+  "collection": {
+    "candidate_articles": 70,
+    "approved": 40,
+    "excluded_or_not_approved": 30,
+    "frontend_sources": 54,
+    "mountain_scopes": 12
+  },
+  "import": {
+    "captured_at": "2026-11-18T13:31:55.920Z",
+    "app_id": "2122661644017745920",
+    "before": 12,
+    "after": 52,
+    "added": 40,
+    "page1_completed": 50,
+    "page2_completed": 2,
+    "scope": "调试/发布都生效",
+    "web_update": "每日更新（设置已选中，跨日执行尚未观察）",
+    "reference": "原始网址"
+  },
+  "tests": {
+    "catalog_tests": {
+      "passed": 7,
+      "total": 7
+    },
+    "browser_queries": [
+      {
+        "service": "guide",
+        "mountain": "恒山",
+        "phrase": "北岳恒山景区概览",
+        "passed": true,
+        "status": "恒山 · 山岳资料，2份来源资料"
+      },
+      {
+        "service": "tickets",
+        "mountain": "峨眉山",
+        "phrase": "高山区观光车",
+        "passed": true,
+        "status": "峨眉山 · 门票预约，2份来源资料"
+      },
+      {
+        "service": "notices",
+        "mountain": "天柱山",
+        "phrase": "运营与实名预约",
+        "passed": true,
+        "status": "天柱山 · 开放公告，3份来源资料"
+      },
+      {
+        "service": "guide",
+        "mountain": "三叠泉",
+        "phrase": "庐山三叠泉",
+        "passed": true,
+        "status": "三叠泉 · 山岳资料，2份来源资料"
+      },
+      {
+        "service": "guide",
+        "mountain": "香山",
+        "phrase": "北京香山",
+        "passed": true,
+        "status": "香山 · 山岳资料，1份来源资料"
+      },
+      {
+        "service": "certificates",
+        "mountain": "长坪沟",
+        "phrase": "徒步打卡证书",
+        "passed": true,
+        "status": "长坪沟 · 登顶证书，1份来源资料"
+      },
+      {
+        "service": "news",
+        "mountain": "全国",
+        "phrase": "滑雪登山锦标赛",
+        "passed": true,
+        "status": "全国 · 近30天消息，9份来源资料"
+      },
+      {
+        "service": "professional",
+        "mountain": "大峰",
+        "phrase": "四姑娘山户外登山介绍",
+        "passed": true,
+        "status": "大峰 · 专业攀登，2份来源资料"
+      },
+      {
+        "service": "guide",
+        "mountain": "乞力马扎罗",
+        "phrase": "继续查询这座山",
+        "passed": true,
+        "status": "未找到“乞力马扎罗”的山岳资料。"
+      }
+    ],
+    "show_more": {
+      "before": 6,
+      "after": 12
+    },
+    "source_dialog_cards": 54,
+    "desktop": {
+      "width": 1470,
+      "documentWidth": 1470,
+      "titleTop": 49,
+      "focused": "workspace-title"
+    },
+    "mobile": {
+      "cards": 3,
+      "documentWidth": 390,
+      "focused": "workspace-title",
+      "height": 844,
+      "titleTop": 41,
+      "width": 390
+    },
+    "agent_actual_runs": 18,
+    "agent_rounds": 2,
+    "agent_core_fact_reviews": [
+      {
+        "id": "R1-T01",
+        "question": "恒山景区在哪里预约门票？只给官方入口和两步操作。",
+        "core_fact_review": "符合已核验来源",
+        "note": "入口正确，额外展开现场购票和票种。"
+      },
+      {
+        "id": "R1-T02",
+        "question": "2026年11月21日去天柱山，主景区几点停止售票入园？只回答这个时间，并附官方公告。",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R1-T03",
+        "question": "峨眉山去雷洞坪的观光车怎么预约？和金顶2号索道下行预约是一回事吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "观光车与索道结论正确；联网补充链接中一项未能在独立请求中打开。"
+      },
+      {
+        "id": "R1-T04",
+        "question": "梵净山西山门可以坐索道上山吗？给出官方依据。",
+        "core_fact_review": "符合已核验来源",
+        "note": "结论正确，额外展开东西门票规则。"
+      },
+      {
+        "id": "R1-T05",
+        "question": "长坪沟徒步打卡的电子证书在哪里下载？这是四川登山协会的登顶证书吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R1-T06",
+        "question": "庐山核心景区在哪个官方小程序预约？",
+        "core_fact_review": "符合已核验来源",
+        "note": "入口正确；联网补充链接独立请求超时。"
+      },
+      {
+        "id": "R1-T07",
+        "question": "今天是2026年11月18日，我看到恒山庙群区11月17日关闭的通告，现在还是关闭吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R1-T08",
+        "question": "2026年全国滑雪登山锦标赛现在已经举办了吗？请给发布日期和计划比赛日期。",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T01",
+        "question": "恒山景区在哪里预约门票？只给官方入口和两步操作。",
+        "core_fact_review": "符合已核验来源",
+        "note": "入口正确，仍额外带票种说明。"
+      },
+      {
+        "id": "R2-T02",
+        "question": "2026年11月21日去天柱山，主景区几点停止售票入园？只回答这个时间，并附官方公告。",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T03",
+        "question": "峨眉山去雷洞坪的观光车怎么预约？和金顶2号索道下行预约是一回事吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T04",
+        "question": "梵净山西山门可以坐索道上山吗？给出官方依据。",
+        "core_fact_review": "符合已核验来源",
+        "note": "西门无索道结论正确，仍多带停售时间和常规提示。"
+      },
+      {
+        "id": "R2-T05",
+        "question": "长坪沟徒步打卡的电子证书在哪里下载？这是四川登山协会的登顶证书吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T06",
+        "question": "庐山核心景区在哪个官方小程序预约？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T07",
+        "question": "今天是2026年11月18日，我看到恒山庙群区11月17日关闭的通告，现在还是关闭吗？",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T08",
+        "question": "2026年全国滑雪登山锦标赛现在已经举办了吗？请给发布日期和计划比赛日期。",
+        "core_fact_review": "符合已核验来源",
+        "note": "第二轮已跨日，回答采用11月19日；比赛仍为12月6日至11日计划。"
+      },
+      {
+        "id": "R2-T09",
+        "question": "我们是登山公司，要填新疆的申请函并核对队员名单。",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      },
+      {
+        "id": "R2-T10",
+        "question": "恒山景区官方咨询电话是什么？只给电话和来源。",
+        "core_fact_review": "符合已核验来源",
+        "note": "核心事实、对象与来源相符。"
+      }
+    ]
+  },
+  "b_preservation": {
+    "files_checked": 407,
+    "changed": [],
+    "unchanged": true,
+    "b_app_id": "2121912877099329792",
+    "b_modified_by_this_update": false
+  },
+  "remaining": [
+    "部分短答仍会多带票种、停售时间等未问内容。",
+    "知识库每日更新设置已确认，跨日自动刷新执行尚未观察。"
+  ],
+  "evidence_directory_local": "knowledge/evidence",
+  "raw_runs_local": "knowledge/evidence/agent-runs.json"
+}

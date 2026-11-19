@@ -1,0 +1,402 @@
+[
+  {
+    "id": "hengshan",
+    "mountain": "恒山",
+    "aliases": [
+      "北岳恒山",
+      "悬空寺"
+    ],
+    "issuer": "恒山风景名胜区管理中心",
+    "hosts": [
+      "www.byhs.net.cn",
+      "byhs.net.cn"
+    ],
+    "authority": "https://www.byhs.net.cn/",
+    "authority_basis": "官网页脚列出恒山风景名胜区管理中心及公务联系方式",
+    "seeds": [
+      "https://www.byhs.net.cn/"
+    ],
+    "limit": 12
+  },
+  {
+    "id": "nanyue",
+    "mountain": "衡山",
+    "aliases": [
+      "南岳",
+      "南岳衡山",
+      "祝融峰"
+    ],
+    "issuer": "衡阳市人民政府、衡阳市林业局",
+    "hosts": [
+      "www.nanyue.gov.cn",
+      "www.hengyang.gov.cn"
+    ],
+    "authority": "https://www.nanyue.gov.cn/",
+    "authority_basis": "南岳区人民政府门户网站",
+    "seeds": [
+      "https://www.hengyang.gov.cn/hyslyj/lytp/zrbhq/20200201/i448404.html",
+      "https://www.hengyang.gov.cn/xxgk/dtxx/bmdt/20260409/i3885622.html"
+    ],
+    "limit": 2
+  },
+  {
+    "id": "songshan",
+    "mountain": "嵩山",
+    "aliases": [
+      "少林寺",
+      "少室山",
+      "太室山",
+      "三皇寨"
+    ],
+    "issuer": "郑州市人民政府政务公开",
+    "hosts": [
+      "www.songshancn.com",
+      "songshancn.com",
+      "public.zhengzhou.gov.cn"
+    ],
+    "authority": "https://public.zhengzhou.gov.cn/D1101X/10204019.jhtml",
+    "authority_basis": "郑州市政府公开的建议答复，供了解常规运营与夜游试点；不将规划表述作已开放公告",
+    "seeds": [
+      "https://public.zhengzhou.gov.cn/D1101X/10204019.jhtml"
+    ],
+    "limit": 1
+  },
+  {
+    "id": "huashan",
+    "mountain": "华山",
+    "aliases": [
+      "西岳华山"
+    ],
+    "issuer": "华山景区",
+    "hosts": [
+      "www.chinahuashan.com",
+      "chinahuashan.com"
+    ],
+    "authority": "https://www.chinahuashan.com/front/index.htm",
+    "authority_basis": "须以实际页面署名核实；抓取失败不入库",
+    "seeds": [
+      "https://www.chinahuashan.com/front/index.htm"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "lushan",
+    "mountain": "庐山",
+    "aliases": [
+      "牯岭",
+      "三叠泉",
+      "五老峰"
+    ],
+    "issuer": "庐山市人民政府",
+    "hosts": [
+      "www.lushan.gov.cn"
+    ],
+    "authority": "https://www.lushan.gov.cn/",
+    "authority_basis": "庐山市人民政府门户网站",
+    "seeds": [
+      "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/202512/t20251231_7134054.html",
+      "https://www.lushan.gov.cn/bmxzxxgk/bumeng/whgdxwcbj/fdzdgknr_195359/lvyou/"
+    ],
+    "limit": 7
+  },
+  {
+    "id": "tianzhu",
+    "mountain": "天柱山",
+    "aliases": [
+      "安徽天柱山"
+    ],
+    "issuer": "安徽天柱山风景区",
+    "hosts": [
+      "www.tzs.com.cn",
+      "tzs.com.cn",
+      "m.tzs.com.cn",
+      "www.etzs.cn"
+    ],
+    "authority": "https://www.tzs.com.cn/",
+    "authority_basis": "官网页脚版权所有安徽天柱山风景区；商务网公告导向官方购票平台",
+    "seeds": [
+      "https://www.tzs.com.cn/",
+      "https://www.tzs.com.cn/site-ah-tzs/info/5236",
+      "https://www.etzs.cn/"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "wuyi",
+    "mountain": "武夷山",
+    "aliases": [
+      "天游峰",
+      "九曲溪",
+      "虎啸岩"
+    ],
+    "issuer": "武夷山风景名胜区管理委员会、武夷山旅游发展股份有限公司",
+    "hosts": [
+      "www.wyschina.com",
+      "wyschina.com"
+    ],
+    "authority": "https://www.wyschina.com/",
+    "authority_basis": "官网页脚发布机构与英文官网署名相互核对",
+    "seeds": [
+      "https://www.wyschina.com/"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "yandang",
+    "mountain": "雁荡山",
+    "aliases": [
+      "北雁荡山",
+      "大龙湫",
+      "灵岩"
+    ],
+    "issuer": "雁荡山风景区",
+    "hosts": [
+      "www.wzyds.com",
+      "wzyds.com",
+      "yds.wenzhou.gov.cn"
+    ],
+    "authority": "https://www.wzyds.com/",
+    "authority_basis": "官网署名及管理委员会政务网站交叉核验",
+    "seeds": [
+      "https://www.wzyds.com/",
+      "https://yds.wenzhou.gov.cn/",
+      "https://www.wzyds.com/scenicSpot.aspx?t=17"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "jiuhua",
+    "mountain": "九华山",
+    "aliases": [
+      "天台峰"
+    ],
+    "issuer": "九华山风景区管理委员会",
+    "hosts": [
+      "www.jiuhuashan.gov.cn"
+    ],
+    "authority": "https://www.jiuhuashan.gov.cn/",
+    "authority_basis": "九华山风景区管委会政府门户",
+    "seeds": [
+      "https://www.jiuhuashan.gov.cn/"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "emei",
+    "mountain": "峨眉山",
+    "aliases": [
+      "金顶",
+      "雷洞坪"
+    ],
+    "issuer": "峨眉山景区管理委员会",
+    "hosts": [
+      "emsjq.leshan.gov.cn",
+      "www.leshan.gov.cn"
+    ],
+    "authority": "https://www.leshan.gov.cn/lsswszf/zfxxgkzn/92337833/index.html",
+    "authority_basis": "乐山市政府信息公开指南明确列出管委会官网域名",
+    "seeds": [
+      "https://www.leshan.gov.cn/lsswszf/zzzqgsgg/781992631300165.html",
+      "https://www.leshan.gov.cn/lsswszf/zzzqgsgg/bc5ef1c2b2d24f36a92f68081.html"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "laoshan",
+    "mountain": "崂山",
+    "aliases": [
+      "巨峰",
+      "太清",
+      "仰口",
+      "九水"
+    ],
+    "issuer": "青岛崂山风景名胜区",
+    "hosts": [
+      "qdlaoshan.cn",
+      "www.qdlaoshan.cn",
+      "jq.qdlaoshan.cn"
+    ],
+    "authority": "https://jq.qdlaoshan.cn/",
+    "authority_basis": "官网页脚青岛崂山风景名胜区版权所有",
+    "seeds": [
+      "https://jq.qdlaoshan.cn/",
+      "https://qdlaoshan.cn/News-info-nid-6285.html"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "qingcheng",
+    "mountain": "青城山",
+    "aliases": [
+      "青城前山",
+      "青城后山"
+    ],
+    "issuer": "青城山—都江堰景区",
+    "hosts": [
+      "www.djy517.com",
+      "djy517.com"
+    ],
+    "authority": "https://www.djy517.com/",
+    "authority_basis": "景区旅游门户官网署名及购票页面",
+    "seeds": [
+      "https://www.djy517.com/",
+      "https://www.djy517.com/online.html?channelCode=mpyd"
+    ],
+    "limit": 6
+  },
+  {
+    "id": "huangshan",
+    "mountain": "黄山",
+    "aliases": [
+      "天都峰",
+      "莲花峰",
+      "西海大峡谷"
+    ],
+    "issuer": "黄山风景区管理委员会",
+    "hosts": [
+      "hsgwh.huangshan.gov.cn"
+    ],
+    "authority": "https://hsgwh.huangshan.gov.cn/",
+    "authority_basis": "黄山风景区管委会政府门户",
+    "seeds": [
+      "https://hsgwh.huangshan.gov.cn/xwzx/tzgg/",
+      "https://hsgwh.huangshan.gov.cn/xwzx/zdgl/8649164.html"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "taishan",
+    "mountain": "泰山",
+    "aliases": [
+      "玉皇顶"
+    ],
+    "issuer": "泰山风景名胜区管理委员会",
+    "hosts": [
+      "tsgw.taian.gov.cn"
+    ],
+    "authority": "https://tsgw.taian.gov.cn/",
+    "authority_basis": "泰山景区管委会政府门户",
+    "seeds": [
+      "https://tsgw.taian.gov.cn/"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "siguniang",
+    "mountain": "四姑娘山",
+    "aliases": [
+      "大峰",
+      "二峰",
+      "三峰",
+      "双桥沟",
+      "长坪沟",
+      "海子沟"
+    ],
+    "issuer": "四姑娘山风景名胜区管理局",
+    "hosts": [
+      "www.sgns.cn"
+    ],
+    "authority": "https://www.sgns.cn/",
+    "authority_basis": "管理局官网，既有资料已核验",
+    "seeds": [
+      "https://www.sgns.cn/info/notice",
+      "https://www.sgns.cn/outdoors/foot"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "national",
+    "mountain": "全国",
+    "aliases": [],
+    "issuer": "国家体育总局登山运动管理中心",
+    "hosts": [
+      "www.sport.gov.cn"
+    ],
+    "authority": "https://www.sport.gov.cn/dszx/",
+    "authority_basis": "国家体育总局所属登山运动管理中心栏目",
+    "seeds": [
+      "https://www.sport.gov.cn/dszx/n5414/index.html",
+      "https://www.sport.gov.cn/dszx/n5411/index.html"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "xiangshan",
+    "mountain": "香山（北京）",
+    "aliases": [
+      "香山",
+      "北京香山",
+      "香山公园"
+    ],
+    "issuer": "北京市园林绿化局",
+    "hosts": [
+      "www.xiangshanpark.com",
+      "yllhj.beijing.gov.cn"
+    ],
+    "authority": "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508036.shtml",
+    "authority_basis": "北京市园林绿化局政府网站公开香山公园介绍与常规票价",
+    "seeds": [
+      "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508036.shtml"
+    ],
+    "limit": 1
+  },
+  {
+    "id": "fanjing",
+    "mountain": "梵净山",
+    "aliases": [
+      "红云金顶",
+      "老金顶"
+    ],
+    "issuer": "梵净山旅游区",
+    "hosts": [
+      "fanjingshan.gz.cn"
+    ],
+    "authority": "https://fanjingshan.gz.cn/",
+    "authority_basis": "旅游区官网署名与政府景区信息交叉核验",
+    "seeds": [
+      "https://fanjingshan.gz.cn/",
+      "https://fanjingshan.gz.cn/?p=11926",
+      "https://fanjingshan.gz.cn/?p=11554"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "wugong",
+    "mountain": "武功山（萍乡）",
+    "aliases": [
+      "武功山",
+      "萍乡武功山",
+      "金顶"
+    ],
+    "issuer": "萍乡武功山景区",
+    "hosts": [
+      "www.wugongshan.cn"
+    ],
+    "authority": "https://www.wugongshan.cn/",
+    "authority_basis": "萍乡武功山景区官网署名",
+    "seeds": [
+      "https://www.wugongshan.cn/",
+      "https://www.wugongshan.cn/ticket/buyTicket.htm?parkId=3460"
+    ],
+    "limit": 8
+  },
+  {
+    "id": "wugong-ji",
+    "mountain": "武功山（吉安）",
+    "aliases": [
+      "武功山",
+      "吉安武功山",
+      "安福武功山"
+    ],
+    "issuer": "吉安武功山风景名胜区",
+    "hosts": [
+      "www.jxjawgs.com"
+    ],
+    "authority": "https://www.jxjawgs.com/",
+    "authority_basis": "吉安武功山风景名胜区官网署名",
+    "seeds": [
+      "https://www.jxjawgs.com/"
+    ],
+    "limit": 8
+  }
+]
